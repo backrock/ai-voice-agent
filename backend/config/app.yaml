@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  host: 0.0.0.0
+
+database:
+  type: sqlite
+  sqlite:
+    path: ./data/app.db
+
+providers:
+  openai:
+    enabled: false
+    api_key: ""
+    base_url: https://api.openai.com/v1
+
+  claude:
+    enabled: false
+    api_key: ""
+
+  ollama:
+    enabled: true
+    base_url: http://localhost:11434
+
+logger:
+  level: info
+  format: json

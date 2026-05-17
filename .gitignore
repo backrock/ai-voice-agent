@@ -1,0 +1,45 @@
+# Go
+*.o
+*.a
+*.so
+.DS_Store
+go.sum
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.mod
+*.test
+*.out
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.code-workspace
+
+# Node
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+data/
+
+# Logs
+logs/
+*.log
+
+# Temp
+tmp/
+temp/
+
+# Environment
+.env
+.env.local
